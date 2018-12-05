@@ -586,6 +586,14 @@
     "parent": "game-engine"
   }],
   "projects": [{
+	  
+      "title": "ModelAssistant",
+      "category": "multi-database",
+      "description": "Elegant library to manage the interactions between view and model",
+      "homepage": "https://github.com/ssamadgh/ModelAssistant",
+      "tags": ["swift", "uitableview", "uicollectionview", "ios"]
+
+  }, {
 		"title": "Cards XI",
 		"category": "transition",
 		"description": "Awesome iOS 11 AppStore's Card Views.",
@@ -766,6 +774,11 @@
       "category": "animation",
       "description": "A powerful animation framework for iOS, tvOS, and OS X.",
       "homepage": "https://github.com/timdonnelly/Advance"
+    }, {
+      "title": "Comets",
+      "category": "animation",
+      "description": "Comets: Animating Particles in Swift.",
+      "homepage": "https://github.com/cruisediary/Comets"
     }, {
       "title": "DKChainableAnimationKit",
       "category": "animation",
@@ -1346,7 +1359,7 @@
       "title": "ObjectMapper",
       "category": "json",
       "description": "JSON object mapper.",
-      "homepage": "https://github.com/Hearst-DD/ObjectMapper"
+      "homepage": "https://github.com/tristanhimmelman/ObjectMapper"
     }, {
       "title": "SwiftyJSON",
       "category": "json",
@@ -2154,6 +2167,11 @@
       "description": "Robust networking for web APIs.",
       "homepage": "https://github.com/mindbody/Conduit"
     }, {
+      "title": "CodyFire",
+      "category": "network",
+      "description": "Powerful Codable API requests builder and manager for iOS. Based on Alamofire.",
+      "homepage": "https://github.com/MihaelIsaev/CodyFire"
+    }, {
       "title": "Heimdallr.swift",
       "category": "network",
       "description": "Easy to use OAuth 2 library for iOS.",
@@ -2283,9 +2301,13 @@
     }, {
       "title": "BlueSocket",
       "category": "socket",
-      "description": "IBM's low level socket framework.",
-      "homepage": "https://github.com/IBM-Swift/BlueSocket",
-      "tags": ["linux"]
+      "description": "IBM's cross platform low level socket framework.",
+      "homepage": "https://github.com/IBM-Swift/BlueSocket"
+    }, {
+      "title": "BlueSSLService",
+      "category": "socket",
+      "description": "SSL/TLS add-in for IBM's low level socket framework.",
+      "homepage": "https://github.com/IBM-Swift/BlueSSLService"
     }, {
       "title": "Socket.IO",
       "category": "socket",
@@ -2404,6 +2426,16 @@
       "description": "A linter tool for Interface Builder.",
       "homepage": "https://github.com/IBDecodable/IBLinter"
     }, {
+      "title": "BlueCryptor",
+      "category": "cryptography",
+      "description": "IBM's Cross Platform Crypto library.",
+      "homepage": "https://github.com/IBM-Swift/BlueCryptor"
+    }, {
+      "title": "BlueRSA",
+      "category": "cryptography",
+      "description": "IBM's Cross Platform RSA Crypto library.",
+      "homepage": "https://github.com/IBM-Swift/BlueRSA"
+    }, {
       "title": "CryptoSwift",
       "category": "cryptography",
       "description": "Crypto related functions and helpers.",
@@ -2475,6 +2507,11 @@
       "description": "iOS device sensors wrapper.",
       "homepage": "https://github.com/MHaroonBaig/MotionKit"
     }, {
+      "title": "BlueSignals",
+      "category": "system",
+      "description": "IBM's Cross Platform OS signal handling library.",
+      "homepage": "https://github.com/IBM-Swift/BlueSignals"
+    }, {
       "title": "SMCKit",
       "category": "system",
       "description": "Apple SMC library.",
@@ -2530,6 +2567,12 @@
       "description": "Quick is a behavior-driven development framework.",
       "homepage": "https://github.com/Quick/Quick",
       "tags": ["linux"]
+    }, {
+      "title": "SnapshotTest",
+      "category": "testing",
+      "description": "Snapshot testing tool for iOS and tvOS.",
+      "homepage": "https://github.com/parski/SnapshotTest",
+      "tags": ["iOS", "tvOS"]
     }, {
       "title": "Spectre",
       "category": "testing",
@@ -2913,6 +2956,11 @@
       "description": "Express your creativity with Material, an animation and graphics framework for Google's Material Design and Apple's Flat UI.",
       "homepage": "https://github.com/CosmicMind/Material"
     }, {
+      "title": "Material Components for iOS",
+      "category": "ui",
+      "description": "Modular and customizable Material Design UI components for iOS",
+      "homepage": "https://github.com/material-components/material-components-ios"
+    }, {
       "title": "MaterialKit",
       "category": "ui",
       "description": "Material design components.",
@@ -2928,6 +2976,11 @@
       "description": "Apple TV Parallax effect.",
       "homepage": "https://github.com/DroidsOnRoids/MPParallaxView"
     }, {
+      "title": "Arale",
+      "category": "ui",
+      "description": "A custom stretchable header view for UIScrollView or any its subclasses with UIActivityIndicatorView support for content reloading.",
+      "homepage": "https://github.com/ZulwiyozaPutra/Arale"
+     }, {
       "title": "MXParallaxHeader",
       "category": "ui",
       "description": "Simple parallax header for UIScrollView.",
@@ -3108,6 +3161,11 @@
       "description": "UITextField-Navigation adds next, previous and done buttons to the keyboard for your UITextFields. Highly customizable.",
       "homepage": "https://github.com/T-Pham/UITextField-Navigation"
     }, {
+      "title": "ALRT",
+      "category": "alert",
+      "description": "An easier constructor for UIAlertController. Present an alert from anywhere.",
+      "homepage": "https://github.com/mshrwtnb/alrt"
+    }, {
       "title": "Alertift",
       "category": "alert",
       "description": "Modern, easy UIAlertController wrapper.",
@@ -3144,7 +3202,7 @@
       "homepage": "https://github.com/ytakzk/Hokusai"
     }, {
       "title": "Jelly",
-      "category": "alert",
+      "category": "transition",
       "description": "Jelly provides custom view controller transitions with just a few lines of code.",
       "homepage": "https://github.com/SebastianBoldt/Jelly"
     }, {
@@ -3342,7 +3400,7 @@
       "title": "MFCard",
       "category": "payment",
       "description": "Easily integrate Credit Card payments in iOS App.",
-      "homepage": "https://github.com/MobileFirstInc/MFCard"
+      "homepage": "https://github.com/RC7770/MFCard"
     }, {
       "title": "Permission",
       "category": "permissions",
@@ -3403,6 +3461,11 @@
       "category": "transition",
       "description": "Elegant transition library for iOS.",
       "homepage": "https://github.com/HeroTransitions/Hero"
+    }, {
+      "title": "ImageTransition",
+      "category": "transition",
+      "description": "ImageTransition is a library for smooth animation of images during transitions.",
+      "homepage": "https://github.com/shtnkgm/ImageTransition"
     }, {
       "title": "DTTableViewManager",
       "category": "uitableview",
@@ -3779,7 +3842,7 @@
       "title": "Facebook",
       "category": "SDK",
       "description": "Official Facebook SDK.",
-      "homepage": "https://github.com/facebook/facebook-sdk-swift"
+      "homepage": "https://github.com/facebook/facebook-swift-sdk"
     }, {
       "title": "Translucid",
       "category": "label",
@@ -3989,6 +4052,12 @@
       "homepage": "https://objectivec2swift.com",
       "tags": ["extensions", "ios", "macos", "objective-c", "swift"]
     }, {
+      "title": "Zolang",
+      "homepage": "https://github.com/Zolang/Zolang",
+      "category": "converters",
+      "description": "A DSL for generating code in multiple programming languages",
+      "tags": ["extensions", "ios", "macos", "linux", "swift"]
+    }, {
       "title": "LocalizationKit",
       "category": "localization",
       "description": "Realtime dynamic localization of your app with remote management so you can manage maintain and deploy translations without resubmitting app.",
@@ -4147,7 +4216,7 @@
       "title": "EFQRCode",
       "category": "barcode",
       "description": "A better way to operate quick response code.",
-      "homepage": "https://github.com/EyreFree/EFQRCode",
+      "homepage": "https://github.com/EFPrefix/EFQRCode",
       "tags": ["swift", "qrcode", "barcode", "generator", "recognizer"]
     }, {
       "title": "LoginKit",
@@ -5180,12 +5249,134 @@
       "category": "menu",
       "description": "Panels is a framework to easily add sliding panels to your application.",
       "homepage": "https://github.com/antoniocasero/Panels"
+    }, {
+      "title": "Kitsunebi",
+      "category": "video",
+      "description": "Overlay alpha channel video animation player view using OpenGLES.",
+      "homepage": "https://github.com/noppefoxwolf/Kitsunebi"
     }
     , {
       "title": "CleanArchitectureRxSwift",
       "category": "patterns",
       "description": "Example of Clean Architecture of iOS app using RxSwift.",
       "homepage": "https://github.com/sergdort/CleanArchitectureRxSwift"
-    }
+    }, {
+      "title": "LinkedInSignIn",
+      "category": "authentication",
+      "description": "Simple view controller to log in and retrieve an access token from LinkedIn.",
+      "homepage": "https://github.com/serhii-londar/LinkedInSignIn"
+    }, {
+      "title": "Reactant",
+      "category": "patterns",
+      "description": "Reactant is a reactive architecture for iOS.",
+      "homepage": "https://github.com/Brightify/Reactant"
+    }, {
+      "title": "HaishinKit",
+      "category": "streaming",
+      "description": "Camera and Microphone streaming library via RTMP, HLS for iOS, macOS, tvOS.",
+      "homepage": "https://github.com/shogo4405/HaishinKit.swift"
+    }, {
+      "title": "XCTest",
+      "category": "testing",
+      "description": "The XCTest Project, A Swift core library for providing unit test support.",
+      "homepage": "https://github.com/apple/swift-corelibs-xctest"
+    }, {
+      "title": "Defaults",
+      "category": "key-value-store",
+      "description": "Strongly-typed UserDefaults with support for Codable and key observation.",
+      "homepage": "https://github.com/sindresorhus/Defaults"
+    }, {
+      "title": "Preferences",
+      "category": "ui",
+      "description": "Add a preferences window to your macOS app in minutes.",
+      "homepage": "https://github.com/sindresorhus/Preferences"
+    }, {
+      "title": "LaunchAtLogin",
+      "category": "system",
+      "description": "Easily add 'Launch at Login' functionality to your sandboxed macOS app.",
+      "homepage": "https://github.com/sindresorhus/LaunchAtLogin"
+    }, {
+      "title": "DockProgress",
+      "category": "ui",
+      "description": "Show progress in your macOS app's Dock icon.",
+      "homepage": "https://github.com/sindresorhus/DockProgress"
+    }, {
+      "title": "OnboardKit",
+      "category": "walkthrough",
+      "description": "Customisable user onboarding for your iOS app.",
+      "homepage": "https://github.com/NikolaKirev/OnboardKit"
+    }, {
+      "title": "CircularProgress",
+      "category": "ui",
+      "description": "Circular progress indicator for your macOS app.",
+      "homepage": "https://github.com/sindresorhus/CircularProgress"
+    }, {
+      "title": "PersistenceKit",
+      "category": "multi-database",
+      "description": "Store and retrieve Codable objects to various persistence layers, in a couple lines of code!",
+      "homepage": "https://github.com/Teknasyon-Teknoloji/PersistenceKit",
+      "tags": ["swift", "filemanager", "userdefaults", "keychain", "ios", "macos", "tvos", "watchos"]
+    }, {
+      "title": "Rough",
+      "category": "images",
+      "description": "Rough lets you draw in a sketchy, hand-drawn-like, style.",
+      "homepage": "https://github.com/bakhtiyork/Rough",
+      "tags": ["swift", "sketchy", "hand-drawn"]
+    }, {
+      "title": "Pixel",
+      "category": "images",
+      "description": "An image editor and engine using CoreImage.",
+      "homepage": "https://github.com/muukii/Pixel"
+    },  {
+      "title": "UICollectionViewSplitLayout",
+      "category": "uicollectionview",
+      "description": "UICollectionViewSplitLayout makes collection view more responsive.",
+      "homepage": "https://github.com/yahoojapan/UICollectionViewSplitLayout"
+    }, {
+      "title": "AHDownloadButton",
+      "category": "button",
+      "description": "Customizable download button with progress and transition animations. It is based on Apple's App Store download button.",
+      "homepage": "https://github.com/amerhukic/AHDownloadButton"
+    }, {
+      "title": "PaperOnboarding",
+      "category": "walkthrough",
+      "description": "PaperOnboarding is a material design UI slider.",
+      "homepage": "https://github.com/Ramotion/paper-onboarding"
+    }, {
+      "title": "CircleMenu",
+      "category": "menu",
+      "description": "CircleMenu is a simple, elegant UI menu with a circular layout and material design animations.",
+      "homepage": "https://github.com/Ramotion/circle-menu"
+    }, {
+      "title": "GitHubAPI",
+      "category": "api",
+      "description": "Implementation of GitHub REST API v3",
+      "homepage": "https://github.com/serhii-londar/GithubAPI"
+    }, {
+      "title": "Gliding Collection",
+      "category": "uicollectionview",
+      "description": "Gliding Collection is a smooth, flowing, customizable decision for a UICollectionView Controller.",
+      "homepage": "https://github.com/Ramotion/gliding-collection"
+    }, {
+       "title": "WeakableSelf",
+       "category": "utility",
+       "description": "A micro-framework to encapsulate [weak self] and guard statements within closures.",
+       "homepage": "https://github.com/vincent-pradeilles/weakable-self"
+     }, {
+       "title": "RequestPermission",
+       "category": "permissions",
+       "description": "Simple permission request with beautiful UI.",
+       "homepage": "https://github.com/IvanVorobei/SPPermission"
+     }, {
+         "title": "Google",
+         "category": "style-guides",
+         "description": "This style guide is based on Apple’s excellent Swift standard library style and also incorporates feedback from usage across multiple Swift projects within Google.",
+         "homepage": "https://google.github.io/swift/"
+     }, {
+       	"title": "paper-switch",
+	"category": "switch",
+	"description": "RAMPaperSwitch is a Swift material design UI module which paints over the parent view when the switch is turned on.",
+	"homepage": "https://github.com/Ramotion/paper-switch"
+     }
   ]
 }
